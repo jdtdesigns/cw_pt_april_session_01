@@ -1,0 +1,16 @@
+<h1>Shop Listing</h1>
+
+<div class="shops">
+  {{#each shop_listing}} {{!--
+    <p>Name: {{ this.name }}</p> --}}
+    <div class="shop">
+      <p>Name: {{ name }}</p>
+      <h3>Coffees</h3>
+      <ul>
+        {{#each Coffees}}
+          <li>Name: {{name}} | Type: {{type}}</li>
+        {{/each}}
+      </ul>
+    </div>
+  {{/each}}
+</div>

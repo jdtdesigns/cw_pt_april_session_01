@@ -1,0 +1,18 @@
+body {
+  padding: 25px 5%;
+}
+
+.shops {
+  display: flex;
+}
+
+.shops .shop {
+  background: #444;
+  color: #fff;
+  margin: 5px 5px;
+  padding: 15px;
+}
+
+.shops .shop h3 {
+  color: #fff;
+}
